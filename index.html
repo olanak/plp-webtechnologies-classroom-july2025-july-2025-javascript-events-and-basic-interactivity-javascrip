@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Web Page</title>
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🚀 JavaScript Interactivity Assignment</h1>
+
+  <!-- Part 1: Event Handling -->
+  <section>
+    <h2>Part 1: Event Handling</h2>
+    <button id="greetBtn">Click Me</button>
+    <p id="message"></p>
+  </section>
+
+  <!-- Part 2: Interactive Elements -->
+  <section>
+    <h2>Part 2: Interactive Elements</h2>
+
+    <!-- Light/Dark Mode Toggle -->
+    <button id="modeToggle">Toggle Dark Mode</button>
+
+    <!-- Counter Game -->
+    <div class="counter-box">
+      <p>Counter: <span id="counter">0</span></p>
+      <button id="increaseBtn">Increase</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section>
+    <h2>Part 3: Form Validation</h2>
+    <form id="signupForm">
+      <label>Name:</label>
+      <input type="text" id="name">
+      <span class="error" id="nameError"></span><br><br>
+
+      <label>Email:</label>
+      <input type="text" id="email">
+      <span class="error" id="emailError"></span><br><br>
+
+      <label>Password:</label>
+      <input type="password" id="password">
+      <span class="error" id="passwordError"></span><br><br>
+
+      <button type="submit">Register</button>
+    </form>
+    <p id="formSuccess"></p>
+  </section>
+
+  <!-- Link to JS -->
+  <script src="script.js"></script>
+</body>
+</html>
